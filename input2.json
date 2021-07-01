@@ -1,0 +1,8 @@
+{
+    "_comment": "This is an example input data for token type authorizer",
+    "_reference1": "https://docs.aws.amazon.com/apigateway/latest/developerguide/apigateway-use-lambda-authorizer.html",
+    "_reference2": "https://docs.aws.amazon.com/apigateway/latest/developerguide/api-gateway-lambda-authorizer-input.html",
+    "type":"TOKEN",
+    "authorizationToken":"{caller-supplied-token}",
+    "methodArn":"arn:aws:execute-api:{regionId}:{accountId}:{apiId}/{stage}/{httpVerb}/[{resource}/[{child-resources}]]"
+}
